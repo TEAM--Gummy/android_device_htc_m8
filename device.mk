@@ -198,6 +198,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     Torch
 
+# TWRP 	273
+PRODUCT_COPY_FILES += \	274
+    $(LOCAL_PATH)/rootdir/etc/twrp.fstab:recovery/root/etc/recovery.fstab
+
 # USB
 PRODUCT_PACKAGES += \
     com.android.future.usb.accessory
