@@ -198,8 +198,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     Torch
 
-# TWRP 	273
-PRODUCT_COPY_FILES += \	274
+# TWRP
+PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/twrp.fstab:recovery/root/etc/recovery.fstab
 
 # USB
